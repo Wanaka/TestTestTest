@@ -5,7 +5,7 @@ import org.junit.Test
 import org.junit.Assert.*
 import org.junit.Before
 
-class MyTest {
+class MyUnit    Test {
 
 //    lateinit var SUT: Myfile
 //
