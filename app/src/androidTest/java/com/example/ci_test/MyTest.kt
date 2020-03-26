@@ -17,6 +17,6 @@ class MyTest {
     @Test
     fun sum() {
         var result = SUT.sum(1, 3)
-        assertEquals(5, result)
+        assertEquals(6, result)
     }
 }
