@@ -3,20 +3,10 @@ package com.example.ci_test
 import org.junit.Test
 
 import org.junit.Assert.*
-import org.junit.Before
 
-class MyUnit    Test {
-
-//    lateinit var SUT: Myfile
-//
-//    @Before
-//    fun setup() {
-//        SUT = Myfile()
-//    }
-
+class MyUnitTest {
     @Test
-    fun sum() {
-//        var result = SUT.sum(1, 3)
+    fun sum_addition() {
         assertEquals(4, 1 + 2)
     }
 }
